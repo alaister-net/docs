@@ -1,0 +1,76 @@
+nav:
+  - Home: index.md
+  - Quickstart Guide: quickstart.md
+  - Game Panel:
+    - Files:
+      - Back up server files: panel/files/backup.md
+    - Databases:
+      - Back up and restore databases: panel/databases/backup.md
+
+
+site_name: Alaister.net Knowledge Base
+repo_url: https://github.com/alaister-net/docs
+repo_name: alaister-net/docs
+edit_uri: edit/master/docs/
+copyright: Copyright &copy; 2021 Alaister.net
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  logo: assets/alaister_net_icon.svg
+  favicon: assets/alaister_net_icon.svg
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: '#'
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/PG4VzD9WFa
+      name: Alaister.net Discord Server
+  generator: false
+
+  analytics:
+    provider: google
+    property: G-1F81FF3R4S
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Please help us improve this page by making a pull request to our GitHub repository.
