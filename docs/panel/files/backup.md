@@ -1,8 +1,9 @@
-## Log into game panel
-First, log into the [game panel](https://panel.alaister.net){:target="_blank"}.
-
 ## Create a backup
-Then, click the server you want to back up > `Backups` > `Create Backup` > `Start Backup`.
+First, access the [control panel](https://panel.alaister.net){:target="_blank"}.
+
+![](../../assets/portal/open_panel.png)
+
+Then, click the `Backups` tab to get started.
 
 ![](../../assets/panel/backups_nav.png)
 
@@ -11,7 +12,7 @@ Then, click the server you want to back up > `Backups` > `Create Backup` > `Star
 ![](../../assets/panel/backups_start.png)
 
 !!! note
-    A backup usually takes around 10 seconds up to half an hour, depending on your server size.
+    A backup usually takes around a few seconds up to 10 minutes, depending on your server size.
 
 ## Manage the backup
 Finally, you can download, restore, lock, or delete the backup.

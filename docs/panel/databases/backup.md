@@ -1,7 +1,9 @@
 ## Find your database connection details
-First, log into the [game panel](https://panel.alaister.net){:target="_blank"}.
+First, access the [control panel](https://panel.alaister.net){:target="_blank"}.
 
-Then, click the server > `Databases`
+![](../../assets/portal/open_panel.png)
+
+Then, click the `Databases` tab.
 
 ![](../../assets/panel/databases_nav.png)
 
@@ -10,29 +12,25 @@ Click the eye button of the database. You'll be able to see the database connect
 ![](../../assets/panel/databases_view.png)
 
 ## Back up your database
-In another browser tab, open [phpMyAdmin](https://pma.alaister.net){:target="_blank"}. Copy and paste the username and password of the database and choose the database server. Then click `Go`.
+Open [Adminer database manager](https://client.alaister.net/adminer/){:target="_blank"}.
 
-![](../../assets/pma/login.png)
+![](../../assets/portal/adminer_nav.png)
 
-Click the database > `Export` > `Go` > Save the downloaded file
+Copy and paste the username, password, and name of the database, and choose the database server depending on the node. Then click `Login`.
 
-![](../../assets/pma/select_database.png)
+![](../../assets/adminer/login.png)
 
-![](../../assets/pma/export_nav.png)
+Click `Export` at the sidebar. 
 
-![](../../assets/pma/export_tables.png)
+![](../../assets/adminer/export_sidebar.png)
 
-![](../../assets/pma/export_save.png)
+Then export and download the **SQL** file. You may enable gzip if your database is big, but it takes more time to (un)archive during the backup process.
+
+![](../../assets/adminer/export.png)
 
 You've successfully backed up your database tables.
 
 ## Restore your database
-Click `Import` > Upload the .sql backup file > `Go`. The time taken depends on how many tables and rows in your backed up database.
-
-![](../../assets/pma/import_nav.png)
-
-![](../../assets/pma/import_upload.png)
-
-![](../../assets/pma/import_done.png)
+Click `Import` at the sidebar. Upload the SQL file tou have downloaded. The time it takes depends on how big the database is.
 
 Done! You have successfully restored your database.

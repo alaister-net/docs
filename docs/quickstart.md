@@ -2,26 +2,37 @@
 First, create an account in the [client portal](https://client.alaister.net/){:target="_blank"} with your Discord account.
 
 ## Create a server
-Then, in the client portal, under `Game Servers` click `Create Server` in the header menu.
-![](assets/client/game_servers_nav.jpeg)
+Then, in the client portal, under `Services` click `Order New Services` in the header menu, or through [this link](https://client.alaister.net/account/services/order/).
 
-After that, customize your new server. Below is a standard configuration for Minecraft servers. Click `Create` after editing the config.
-![](assets/client/create_server.jpeg)
+![](assets/portal/order_nav.png)
+
+Next, choose a server type. We're going to create an application server as an example. Remember, **you are not allowed to run a game server in an app server!**
+
+![](assets/portal/create_app.png)
+
+After that, create your new server:
+
+1. Choose the software, e.g. NodeJS.
+![](assets/portal/create_app_software.png)
+
+2. Choose a node available. The list you are seeing may be different from the screenshot below.
+![](assets/portal/create_app_node.png)
+
+3. Edit the resources. Make sure you have enough coins (default is max. **5000 coins**). The below is recommended for most Discord bots and web apps.
+![](assets/portal/create_app_recommended.png)
 
 ## Manage your server
-Under `Game Servers` click `My Servers` in the header menu. You can edit/renew your server, **install server JAR and plugins** with our software installer, choose a **subdomain name**, or create a public status page.
+After creating a server successfully, you will be redirected to the server settings. (You can also go to this page by clicking `My Services` under the `Services` menu) Now, you can view, edit, renew, and delete your server.
 
-!!! info
-    Make sure you renew your server every 3 days or they'll be suspended. You just need to execute the `/aservers renew` bot command or click the renew button in the client portal.
+![](assets/portal/edit_server.png)
 
-## Log into game panel
-Finally, log into the [game panel](https://panel.alaister.net){:target="_blank"}. *Again, no password is required :)*
+!!! info "Remember to renew your server!"
+    Make sure you renew your server **every 7 days** or they'll be suspended. You just need to execute the `/service renew` Discord bot command or click the renew button in the client portal.
 
-![](assets/panel/login.png)
+## Control server though the control panel
+Finally, access the [control panel](https://panel.alaister.net){:target="_blank"} to manage your server.
 
-You'll see a list of servers you own or have access to. Click your server to manage it.
+![](../../assets/portal/open_panel.png)
 
-![](assets/panel/select_server.png)
-
-## Video by `@FlameFace#0570`
+## Video by `@FlameFace#0570` (outdated)
 [![](https://img.youtube.com/vi/XYUqVfGvBQo/0.jpg)](https://youtu.be/XYUqVfGvBQo){:target="_blank"}

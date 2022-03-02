@@ -1,18 +1,25 @@
 nav:
   - Home: index.md
   - Quickstart Guide: quickstart.md
-  - Game Panel:
+  - Client Portal:
+    - Add a custom domain name: portal/hostname.md
+  - Control Panel:
+    - Run shell commands: panel/shell-access.md
     - Files:
+      - Upload/download files using SFTP: panel/files/sftp.md
       - Back up server files: panel/files/backup.md
     - Databases:
       - Back up and restore databases: panel/databases/backup.md
-
+    - Startup Options:
+      - Clone and pull from a Git repo: panel/startup/git.md
+      - Change Node/Python/Java version: panel/startup/version.md
+    - Create a cron job: panel/schedules.md
 
 site_name: Alaister.net Knowledge Base
 repo_url: https://github.com/alaister-net/docs
 repo_name: alaister-net/docs
 edit_uri: edit/master/docs/
-copyright: Copyright &copy; 2021 Alaister.net
+copyright: Copyright &copy; 2022 Alaister.net
 
 theme:
   name: material
@@ -43,6 +50,8 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - pymdownx.details
+  - pymdownx.keys
   - tables
   - toc:
       permalink: '#'
