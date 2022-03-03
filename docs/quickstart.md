@@ -2,7 +2,7 @@
 First, create an account in the [client portal](https://client.alaister.net/){:target="_blank"} with your Discord account.
 
 ## Create a server
-Then, in the client portal, under `Services` click `Order New Services` in the header menu, or through [this link](https://client.alaister.net/account/services/order/).
+Then, in the client portal, under `Services` click `Order New Services` in the header menu, or through [this link](https://client.alaister.net/account/services/order/){:target="_blank"}.
 
 ![](assets/portal/order_nav.png)
 
@@ -32,7 +32,7 @@ After creating a server successfully, you will be redirected to the server setti
 ## Control server though the control panel
 Finally, access the [control panel](https://panel.alaister.net){:target="_blank"} to manage your server.
 
-![](../../assets/portal/open_panel.png)
+![](assets/portal/open_panel.png)
 
 ## Video by `@FlameFace#0570` (outdated)
 [![](https://img.youtube.com/vi/XYUqVfGvBQo/0.jpg)](https://youtu.be/XYUqVfGvBQo){:target="_blank"}

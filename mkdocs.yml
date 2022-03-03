@@ -1,6 +1,8 @@
 nav:
   - Home: index.md
   - Quickstart Guide: quickstart.md
+  - NodeJS Tutorials:
+    - Host a static site with Express: nodejs/express.md
   - Client Portal:
     - Add a custom domain name: portal/hostname.md
   - Control Panel:
@@ -51,7 +53,11 @@ markdown_extensions:
   - admonition
   - attr_list
   - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
   - pymdownx.keys
+  - pymdownx.superfences
   - tables
   - toc:
       permalink: '#'
